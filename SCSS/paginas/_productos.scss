@@ -1,0 +1,20 @@
+.mainProductos{
+    font-family: $fuente-principal;
+    font-size: map-get($tamanioTipografia, iconosNavbar);
+
+    h1{
+        @extend %tituloPaginas;
+    }
+
+    li{
+        list-style: none;
+        text-decoration: underline;
+        text-decoration-color: $color-fuente1;
+        padding-bottom: 11px;
+    }
+
+    span{
+         color: $color-fuente1;
+    }
+}
+

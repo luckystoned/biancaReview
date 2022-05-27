@@ -1,0 +1,36 @@
+.footerPaginas{
+    background-color: map-get($paletaColores, color3);
+    font-family: $fuente-principal;
+    color: map-get($paletaColores, color1);
+    font-size: map-get($tamanioTipografia , iconosNavbar);
+    display: flex;
+    justify-content: space-between;
+
+    li{
+        display: inline-block;
+        justify-content: left;
+    }
+
+    a{
+        text-decoration: none;
+        color: map-get($paletaColores, color1);
+        list-style: none;
+        font-size: map-get($tamanioTipografia, textosGenerales);  
+    }
+
+    h2{
+        text-align: right;
+        font-size: map-get($tamanioTipografia, iconosNavbar);
+    }
+
+    div{
+        padding-left: 5px;
+        padding-right: 5px;        
+    }
+
+}
+
+i {
+    color: map-get($paletaColores, color2);
+    padding:5px;
+}

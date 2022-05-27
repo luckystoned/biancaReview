@@ -1,0 +1,15 @@
+.mainContacto{
+
+    h1{
+        @extend %tituloPaginas;
+    }
+
+    label{
+        font-family: $fuente-principal;
+        font-size: map-get($tamanioTipografia, iconosNavbar); 
+    }
+
+    input{
+        margin-bottom: 25px;
+    }
+}

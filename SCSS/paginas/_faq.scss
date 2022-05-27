@@ -1,0 +1,56 @@
+.mainFaq{
+
+    h1{
+        @extend %tituloPaginas;
+    }
+
+    span{
+         color: map-get($paletaColores, color1);
+    }
+
+    h2{
+        font-family: $fuente-principal;
+        text-align: center;
+        padding: 20px;
+        font-size: map-get($tamanioTipografia, titulosFaq)
+    }
+
+    a{
+        text-decoration: none;
+        color: map-get($paletaColores, color1); 
+    }
+
+    table{
+        border: 2px;
+        border-color: map-get($paletaColores, color1);
+        border-style: solid;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: $fuente_secundaria;
+        font-size: map-get($tamanioTipografia, iconosNavbar);
+    }
+
+    p {
+        font-family: $fuente_secundaria;
+        font-size: map-get($tamanioTipografia, textosGenerales);
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    li{
+        font-family: $fuente_secundaria;
+        font-size: map-get($tamanioTipografia, textosGenerales);
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+}
+
+.tablaFaq{
+    width:90%;
+    overflow-x: scroll;
+}
+
+
+

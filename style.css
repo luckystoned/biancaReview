@@ -1,0 +1,286 @@
+@font-face {
+    font-family: heavyHeap;
+    src: url(./heavy_heap/heavy\ heap\ rg.otf);
+  }
+
+@font-face {
+    font-family: titaniaText;
+    src: url(./titania/Titania-Regular.ttf);
+}
+
+*{margin: 0;
+    padding: 0;}
+
+ul{
+    list-style: none;
+}
+    
+html{
+    height: 100%;
+}    
+
+/* TITULO */
+
+.tituloPagina{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}    
+
+.logoPagina{
+    width: 95px;
+    height: 95px;
+}
+
+.tituloPagina h1{
+    font-family: heavyHeap;
+    font-size: 60px;
+    color: rgb(228, 98, 141);
+    align-self: center;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background-color: black;
+}
+
+.navbar-brand{
+    font-family: heavyHeap;
+    color: rgb(228, 98, 141) !important;
+    font-size: 22px;
+    transition: transform 0.7s;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.2);
+}
+
+.nav-link{
+    font-family: heavyHeap;
+    color: white !important;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: rgb(228, 98, 141);
+}
+
+.navbar-toggler{
+    border-color: rgb(228, 98, 141) !important;
+}
+
+.navbar li{
+    transition: transform 0.7s;
+}
+
+.navbar li:hover{
+    transform: scale(1.2);
+}
+
+/* FOOTER */
+
+.footerPaginas{
+    background-color: black;
+    font-family: heavyHeap;
+    color: rgb(228, 98, 141);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerPaginas li{
+    display: inline-block;
+    justify-content: left;
+}
+
+.footerPaginas a{
+    text-decoration: none;
+    color: rgb(228, 98, 141);
+    list-style: none;
+    font-size: 18px;
+    }
+
+.footerPaginas h2{
+    text-align: right;
+    font-size: 20px;
+}
+
+.footerPaginas div{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footerPaginas ul{
+    padding:0px
+}
+
+i {
+    color:white;
+    padding:5px;
+}
+
+/* BANNERS */
+
+.bannerIzq {
+    background-image: url(./images/flowers.jpg);
+    background-position: center;
+}
+
+.bannerDer{
+    background-image: url(./images/flowers.jpg);
+    background-position: center;
+}
+
+/* CAROUSEL */
+
+.carousel-item img{
+    height: 370px;
+    width: 555px;
+}
+
+/* CONTENIDO QUIENES */
+
+.mainQuienes{
+    background-color: white;
+}
+
+.mainQuienes h1{
+    font-family: heavyHeap;
+    color:rgb(228, 98, 141);
+    padding: 20px;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mainQuienes p{
+    font-family: titaniaText;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    width: 40vw;
+    padding-top: 30px;
+    padding-bottom: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* CONTENIDO PRODUCTOS */
+
+.mainProductos{
+    font-family: heavyHeap;
+    font-size: 20px;
+}
+
+.mainProductos h1{
+    font-family: heavyHeap;
+    color:rgb(228, 98, 141);
+    padding: 20px 20px 0px 20px;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mainProductos li{
+    list-style: none;
+    text-decoration: underline;
+    text-decoration-color: rgb(228, 98, 141);
+    padding-bottom: 11px;
+}
+
+.mainProductos span{
+    color: rgb(228, 98, 141);
+}
+
+/* CONTENIDO FAQ */
+
+.mainFaq h1{
+    font-family: heavyHeap;
+    color:rgb(228, 98, 141);
+    padding: 20px;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mainFaq span{
+    color: rgb(228, 98, 141);  
+}
+
+.mainFaq h2{
+    font-family: heavyHeap;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.mainFaq a{
+    text-decoration: none;
+    color: rgb(228, 98, 141);
+}
+
+.mainFaq table{
+    border: 2px;
+    border-color: rgb(228, 98, 141);
+    border-style: solid;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: titaniaText;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mainFaq p{
+    font-family: titaniaText;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.mainFaq li{
+    font-family: titaniaText;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* CONTENIDO CONTACTO */
+
+.mainContacto h1{
+    font-family: heavyHeap;
+    color:rgb(228, 98, 141);
+    padding: 20px 20px 0px 20px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mainContacto label{
+    font-family: heavyHeap;
+    font-size: 20px;
+    }
+
+.mainContacto input{
+    margin-bottom: 25px;
+}   
+
+/* MEDIA QUERIES */
+
+@media (min-width: 200px) and (max-width:420px) {
+    .tituloPagina h1{
+        font-size:25px
+    }
+}
+
+@media (min-width: 420px) and (max-width:768px) {
+    .tituloPagina h1{
+        font-size: 40px;
+    }
+}    
+

@@ -1,0 +1,11 @@
+@media (min-width: 200px) and (max-width:420px) {
+    .tituloPagina h1{
+        font-size:25px
+    }
+}
+
+@media (min-width: 420px) and (max-width:768px) {
+    .tituloPagina h1{
+        font-size: 40px;
+    }
+}    

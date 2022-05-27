@@ -1,0 +1,19 @@
+.tituloPagina{
+    background-color: map-get($paletaColores, color3);
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+
+    h1{
+    font-family: $fuente-principal;
+    font-size: map-get($tamanioTipografia, tituloMarca);
+    color: map-get($paletaColores, color1);
+    align-self: center;
+    }
+}    
+
+.logoPagina{
+    width: 95px;
+    height: 95px;
+}
+

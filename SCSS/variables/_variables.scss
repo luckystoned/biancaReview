@@ -1,0 +1,32 @@
+$color-fuente1: rgb(228, 98, 141);
+$color-fuente2: white;
+$color-fondo: black;
+$color-fondo2: white;
+$fuente-principal: titaniaText;
+$fuente_secundaria: titaniaText;
+
+$paletaColores:(
+    color1: rgb(228, 98, 141),
+    color2: white,
+    color3: black,
+);
+
+$tamanioTipografia:(
+    tituloMarca: 60px,
+    tituloPaginas: 32px,
+    iconosNavbar: 20px,
+    titulosFaq: 25px,
+    textosGenerales:18px
+);
+
+%tituloPaginas{
+    font-family: $fuente-principal;
+    color: map-get($paletaColores,color1);
+    font-size: map-get($tamanioTipografia, tituloPaginas);
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+};
+
+
+

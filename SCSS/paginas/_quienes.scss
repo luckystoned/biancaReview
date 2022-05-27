@@ -1,0 +1,27 @@
+.mainQuienes{
+    background-color: map-get($paletaColores, color2);
+
+    h1{
+        @extend %tituloPaginas;
+    }
+
+    p{
+        font-family: $fuente_secundaria;
+        font-size: map-get($tamanioTipografia , textosGenerales);
+        text-align: justify;
+        width: 40vw;
+        padding-top: 30px;
+        padding-bottom: 22px;
+        padding-left: 30px;
+        padding-right: 30px; 
+    }
+}
+
+.fotoQuienes{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+}
